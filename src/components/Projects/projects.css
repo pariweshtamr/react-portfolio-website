@@ -1,0 +1,76 @@
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  place-items: center;
+  gap: 2.5rem;
+}
+
+.projects__item {
+  background: var(--color-bg-variant);
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  padding: 0.5rem;
+}
+
+.projects__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.projects__item-image {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.projects__item h3 {
+  letter-spacing: 2px;
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+
+.projects__item-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.projects__item-description {
+  padding: 0 1rem;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.projects__item-tech h4 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.projects__item-tags {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.projects__item-tag {
+  color: var(--color-primary);
+}
+
+/* ============= MEIDA QUERIES (MEDIUM DEVICES) =================== */
+@media screen and (max-width: 1024px) {
+  .projects__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+/* ============= MEIDA QUERIES (SMALL DEVICES) =================== */
+@media screen and (max-width: 600px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
