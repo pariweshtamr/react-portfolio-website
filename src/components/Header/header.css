@@ -1,7 +1,11 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 4rem;
   overflow: hidden;
+}
+
+#home {
+  z-index: 5;
 }
 
 .header__container {
@@ -38,7 +42,7 @@ header {
 
 /* ============ Image ============ */
 
-.me {
+/* .me {
   background: linear-gradient(var(--color-primary) 1%, transparent);
   width: 20rem;
   height: 20rem;
@@ -47,9 +51,30 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   padding: 5rem 1rem 1rem 1rem;
+} */
+
+.me {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
 }
 .me img {
-  margin-left: 2.5rem;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.me::before {
+  content: '';
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, var(--color-bg-variant), transparent);
+  display: block;
+  position: absolute;
+  z-index: -1;
 }
 
 /*  =========== Scroll =========== */

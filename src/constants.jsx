@@ -9,6 +9,16 @@ export const projects = [
     visit: 'https://google.com',
     id: 0,
   },
+  {
+    title: 'Portfolio',
+    description:
+      'Using React and styled-components for styling the web application, this is one of my portfolio websites where I got to learn about styled components.',
+    image: '/images/2.png',
+    tags: ['React'],
+    source: 'https://github.com/pariweshtamr/football-store-project.git',
+    visit: 'https://google.com',
+    id: 0,
+  },
 ]
 
 export const TimeLineData = [

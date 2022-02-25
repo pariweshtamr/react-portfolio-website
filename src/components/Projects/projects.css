@@ -7,10 +7,14 @@
 
 .projects__item {
   background: var(--color-bg-variant);
+  height: 40rem;
   border-radius: 1rem;
   border: 1px solid transparent;
   transition: var(--transition);
   padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .projects__item:hover {

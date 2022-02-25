@@ -17,7 +17,7 @@ const Projects = () => {
             <h3>{project.title}</h3>
             <p className="projects__item-description">{project.description}</p>
             <div className="projects__item-tech">
-              <h4>Stack</h4>
+              <h4>Tech / Stack</h4>
               <div className="projects__item-tags">
                 {project.tags.map((tag, i) => (
                   <ul className="projects__item-tag" key={i}>
