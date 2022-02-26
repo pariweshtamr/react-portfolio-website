@@ -3,6 +3,7 @@ import './about.css'
 import ME from '../../assets/display.JPG'
 import { FaAward } from 'react-icons/fa'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import TimelineSection from '../Timeline/TimelineSection'
 
 const About = () => {
   return (
@@ -22,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Achievements</h5>
-              <small>Entry Level</small>
+              <small>First Year Course Champion</small>
             </article>
 
             <article className="about__card">
@@ -38,12 +39,10 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, hic.
-          </p>
+          <TimelineSection />
 
           <a href="#contact" className="btn btn-primary">
-            Reach out
+            Let's talk
           </a>
         </div>
       </div>

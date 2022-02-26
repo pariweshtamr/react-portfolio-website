@@ -8,7 +8,7 @@ const HeaderButtons = () => {
         Download Resume
       </a>
       <a href="#contact" className="btn btn-primary">
-        Reach out
+        Let's talk
       </a>
     </div>
   )

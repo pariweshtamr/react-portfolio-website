@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderButtons from './HeaderButtons'
 import ME from '../../assets/profile.png'
 import HeaderSocials from './HeaderSocials'
+import TypeAnimation from 'react-type-animation'
 import './header.css'
 
 const Header = () => {
@@ -10,7 +11,22 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Pariwesh Tamrakar</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h5 className="text-light">
+          <TypeAnimation
+            cursor={true}
+            sequence={[
+              'Enthusiastic Dev',
+              1000,
+              'Full Stack Developer ',
+              1000,
+              'MERN Stack Dev',
+              1000,
+              'React Dev',
+              1000,
+            ]}
+            repeat={Infinity}
+          />
+        </h5>
         <HeaderButtons />
 
         <div className="me">
