@@ -41,9 +41,11 @@ const About = () => {
 
           <TimelineSection />
 
-          <a href="#contact" className="btn btn-primary">
-            Let's talk
-          </a>
+          <div className="about__button">
+            <a href="#contact" className="btn btn-primary">
+              Let's talk
+            </a>
+          </div>
         </div>
       </div>
     </section>

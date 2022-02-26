@@ -8,7 +8,7 @@
 
 .timeline__left-content {
   padding-left: 20px;
-  width: 50%;
+  width: 30%;
   position: relative;
 }
 
@@ -29,8 +29,14 @@
 
 .timeline__right-content {
   padding-left: 4.5rem;
-  width: 100%;
+  width: 70%;
   position: relative;
+}
+.timeline__right-content h6 {
+  color: var(--color-primary);
+}
+.timeline__right-content p {
+  color: var(--color-primary-variant);
 }
 .timeline__right-content::before {
   content: '';
@@ -83,4 +89,57 @@
 
 .timeline__content {
   border-left: 2px solid var(--color-primary);
+}
+
+/* ============= MEIDA QUERIES (MEDIUM DEVICES) =================== */
+@media screen and (max-width: 1024px) {
+  .timeline__headers {
+    justify-content: center;
+  }
+  .timeline__title {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .timeline__header {
+    color: var(--color-primary-variant);
+  }
+  .timeline__header::before {
+    display: none;
+  }
+}
+
+/* ============= MEIDA QUERIES (SMALL DEVICES) =================== */
+@media screen and (max-width: 600px) {
+  .timeline__left-content {
+    width: 40%;
+  }
+  .timeline__left-content::before {
+    top: 26px;
+  }
+  .timeline__left-content p {
+    display: flex;
+  }
+  .timeline__right-content {
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 1.2rem;
+  }
+  .timeline__right-content::before {
+    top: 32px;
+    width: 1rem;
+    background: var(--color-primary);
+  }
+
+  .timeline__headers {
+    justify-content: center;
+  }
+  .timeline__title {
+    justify-content: center;
+  }
+  .timeline__header {
+    color: var(--color-primary-variant);
+  }
+  .timeline__header::before {
+    display: none;
+  }
 }

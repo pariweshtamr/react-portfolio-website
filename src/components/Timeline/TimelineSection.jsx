@@ -22,7 +22,7 @@ const TimelineSection = () => {
 
       <div className="timeline__content">
         <TimelineContent
-          year={'2021'}
+          year={'2021 - 2022'}
           title={'Full Stack Developer Course'}
           subTitle={'Dented Code Academy'}
           text={'MERN STACK'}
@@ -31,7 +31,7 @@ const TimelineSection = () => {
           year={'2019 - 2021'}
           title={'Master of Applied Information Technology'}
           subTitle={'Victoria University'}
-          text={'Award: First Year Course Champion'}
+          text={'AWARD: First Year Course Champion'}
         />
       </div>
     </div>

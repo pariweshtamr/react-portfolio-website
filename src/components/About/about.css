@@ -1,7 +1,7 @@
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  grid-template-columns: 35% 55%;
+  gap: 10%;
 }
 
 .about__me {
@@ -38,8 +38,8 @@
 }
 
 .about__card {
-  background: var(--color-bg-variant);
-  border: 1px solid transparent;
+  background: linear-gradient(45deg, var(--color-bg-variant), transparent);
+  border: 1px solid var(--color-bg-variant);
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
@@ -47,7 +47,7 @@
 
 .about__card:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border: 1px solid var(--color-primary-variant);
   cursor: default;
 }
 
@@ -82,10 +82,10 @@
     width: 50%;
     margin: 2rem auto 4rem;
   }
-
-  /* .about__content p {
-    margin: 1rem 0 1.5rem;
-  } */
+  .about__button {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* ============= MEIDA QUERIES (SMALL DEVICES) =================== */
