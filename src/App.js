@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
 import Projects from './components/Projects/Projects'
+import ScrollButton from './components/ScrollButton/ScrollButton'
 import Services from './components/Services/Services'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Contact />
       <Footer />
       <Nav />
+      <ScrollButton />
     </>
   )
 }

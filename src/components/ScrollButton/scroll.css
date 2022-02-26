@@ -1,0 +1,11 @@
+.scroll__button {
+  position: fixed;
+  cursor: pointer;
+  z-index: 2000;
+  font-size: 3rem;
+  color: var(--color-bg-variant);
+  width: 100%;
+  left: 94%;
+  bottom: 5rem;
+  height: 20px;
+}
