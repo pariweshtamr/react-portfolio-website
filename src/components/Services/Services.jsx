@@ -16,23 +16,15 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Website Designing</p>
             </li>
             <li>
               <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Mobile Responsive Designs</p>
             </li>
             <li>
               <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
-            </li>
-            <li>
-              <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
-            </li>
-            <li>
-              <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Front-end Development</p>
             </li>
           </ul>
         </article>
@@ -47,23 +39,11 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Ecommerce Applications</p>
             </li>
             <li>
               <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
-            </li>
-            <li>
-              <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
-            </li>
-            <li>
-              <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
-            </li>
-            <li>
-              <BsFillBookmarkCheckFill className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Custom Applications</p>
             </li>
           </ul>
         </article>
