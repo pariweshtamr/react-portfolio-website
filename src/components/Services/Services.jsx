@@ -26,6 +26,10 @@ const Services = () => {
               <BsFillBookmarkCheckFill className="service__list-icon" />
               <p>Front-end Development</p>
             </li>
+            <li>
+              <BsFillBookmarkCheckFill className="service__list-icon" />
+              <p>Experience with Figma</p>
+            </li>
           </ul>
         </article>
 

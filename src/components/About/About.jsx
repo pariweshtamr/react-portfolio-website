@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/display.JPG'
+import ME from '../../assets/about.png'
 import { FaAward } from 'react-icons/fa'
 import { VscFolderLibrary } from 'react-icons/vsc'
 import TimelineSection from '../Timeline/TimelineSection'
@@ -35,7 +35,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>4+ Completed </small>
+              <small>6+ Completed </small>
             </article>
           </div>
 

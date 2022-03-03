@@ -31,9 +31,10 @@ const Projects = () => {
           <article className="projects__item" key={index}>
             <div>
               <div className="projects__item-image">
-                <img src={project.image} alt="Project 1" />
+                <img src={project.image} alt="Project img" />
               </div>
               <h3>{project.title}</h3>
+              <hr className="projects__hr" />
               <p className="projects__item-description">
                 {project.description}
               </p>

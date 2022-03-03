@@ -25,12 +25,21 @@
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   overflow: hidden;
+  height: 15rem;
 }
 
 .projects__item h3 {
   letter-spacing: 2px;
   padding: 1rem 1rem;
   color: var(--color-primary);
+  text-align: center;
+}
+.projects__hr {
+  width: 50px;
+  height: 3px;
+  margin: 0 auto 15px auto;
+  border: 0;
+  background: var(--color-light);
 }
 
 .projects__item-buttons {
