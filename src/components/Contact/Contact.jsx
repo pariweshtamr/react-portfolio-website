@@ -4,21 +4,41 @@ import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { RiMessengerLine } from 'react-icons/ri'
 import { BsWhatsapp } from 'react-icons/bs'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const Contact = () => {
   const form = { useRef }
+
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm(
+    const sendEmail = emailjs.sendForm(
       'service_milmbd7',
       'template_hkz6ugs',
       form.current,
       'user_crInatugY1fckdnkfRcc9',
     )
-
     e.target.reset()
+
+    if (sendEmail) {
+      return toast.success('Your message has been sent', {
+        position: 'bottom-left',
+        autoClose: 2000,
+        theme: 'colored',
+      })
+    } else {
+      toast.error(
+        'Unable to send message! Please use alternative links provided.',
+        {
+          position: 'bottom-left',
+          autoClose: 2000,
+          theme: 'colored',
+        },
+      )
+    }
   }
+
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
@@ -84,6 +104,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
+          <ToastContainer />
         </form>
       </div>
     </section>
