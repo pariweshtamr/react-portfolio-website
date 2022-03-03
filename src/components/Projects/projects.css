@@ -76,6 +76,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+
+  .projects__item-image {
+    height: max-content;
+  }
 }
 
 /* ============= MEIDA QUERIES (SMALL DEVICES) =================== */
@@ -83,5 +87,11 @@
   .projects__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  .projects__item {
+    height: max-content;
+  }
+  .projects__item-image {
+    height: max-content;
   }
 }

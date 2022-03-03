@@ -42,17 +42,6 @@ header {
 
 /* ============ Image ============ */
 
-/* .me {
-  background: linear-gradient(var(--color-primary) 1%, transparent);
-  width: 20rem;
-  height: 20rem;
-  position: absolute;
-  left: calc(50% - 10rem);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
-  padding: 5rem 1rem 1rem 1rem;
-} */
-
 .me {
   position: relative;
   display: flex;
@@ -98,7 +87,7 @@ header {
 /* ============= MEIDA QUERIES (SMALL DEVICES) =================== */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: max-content;
   }
 
   .header__socials,

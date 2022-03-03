@@ -9,3 +9,17 @@
   bottom: 5rem;
   height: 20px;
 }
+
+/* ============= MEIDA QUERIES (MEDIUM DEVICES) =================== */
+@media screen and (max-width: 1024px) {
+  .scroll__button {
+    display: none;
+  }
+}
+
+/* ============= MEIDA QUERIES (SMALL DEVICES) =================== */
+@media screen and (max-width: 600px) {
+  .scroll__button {
+    display: none;
+  }
+}
