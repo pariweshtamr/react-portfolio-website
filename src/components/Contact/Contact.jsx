@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import emailjs from 'emailjs-com'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
@@ -8,7 +8,7 @@ import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 const Contact = () => {
-  const form = { useRef }
+  const form = React.useRef(null)
 
   const sendEmail = (e) => {
     e.preventDefault()
