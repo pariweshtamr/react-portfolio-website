@@ -7,7 +7,7 @@ export const projects = [
     image: '/images/1.jpg',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/pariweshtamr/football-store-project.git',
-    visit: 'https://google.com',
+    visit: '',
     id: 0,
   },
   {
@@ -18,7 +18,7 @@ export const projects = [
     image: '/images/6.png',
     tags: ['React'],
     source: 'https://github.com/pariweshtamr/react-portfolio-website',
-    visit: 'https://google.com',
+    visit: 'https://my-portfolio-pariweshtamr.vercel.app/',
     id: 1,
   },
   {
