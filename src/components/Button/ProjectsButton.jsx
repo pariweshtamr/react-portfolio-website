@@ -6,9 +6,9 @@ const ProjectsButton = ({ filter, button }) => {
     <button className="projects__btns">
       {button.map((btn, i) => {
         return (
-          <button className="projects__btn" key={i} onClick={() => filter(btn)}>
+          <div className="projects__btn" key={i} onClick={() => filter(btn)}>
             {btn}
-          </button>
+          </div>
         )
       })}
     </button>
