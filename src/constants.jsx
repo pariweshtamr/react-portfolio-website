@@ -22,6 +22,17 @@ export const projects = [
     id: 1,
   },
   {
+    title: 'Amazon-Prime Clone App',
+    category: 'React',
+    description:
+      'Using React, this is an amazon-prime clone app. Although you cannot actually view movie videos, you can search for a movie or show and view the details of the partical movie or show. These movies and shows have been fetched using the Omdb api.',
+    image: '/images/10.png',
+    tags: ['React'],
+    source: 'https://github.com/pariweshtamr/react-redux-movie-app.git',
+    visit: '',
+    id: 2,
+  },
+  {
     title: 'Portfolio - Styled components',
     category: 'React',
     description:
@@ -30,7 +41,7 @@ export const projects = [
     tags: ['React'],
     source:
       'https://github.com/pariweshtamr/react-portfolio-styled-components.git',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Portfolio - Styled components',
