@@ -33,6 +33,17 @@ export const projects = [
     id: 2,
   },
   {
+    title: 'Animated Login & Registration Form',
+    category: 'Javascript',
+    description:
+      'This is a simple animated login and registration form page built using html, css and javascript.',
+    image: '/images/11.png',
+    tags: ['HTML', 'CSS', 'Javascript'],
+    source: 'https://github.com/pariweshtamr/animated-login-registration-form',
+    visit: '',
+    id: 3,
+  },
+  {
     title: 'Portfolio - Styled components',
     category: 'React',
     description:
@@ -41,7 +52,7 @@ export const projects = [
     tags: ['React'],
     source:
       'https://github.com/pariweshtamr/react-portfolio-styled-components.git',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Portfolio - Styled components',
@@ -51,7 +62,7 @@ export const projects = [
     image: '/images/4.png',
     tags: ['React'],
     source: 'https://github.com/pariweshtamr/new-portfolio.git',
-    id: 3,
+    id: 5,
   },
   {
     title: 'Beat Maker',
@@ -63,7 +74,7 @@ export const projects = [
     source: 'https://github.com/pariweshtamr/js-beatMaker.git',
     visit: 'https://pariweshtamr.github.io/js-beatMaker/',
 
-    id: 4,
+    id: 6,
   },
   {
     title: 'Quiz game',
@@ -74,7 +85,7 @@ export const projects = [
     tags: ['HTML', 'CSS', 'Javascript'],
     source: 'https://github.com/pariweshtamr/js-man-united-quiz-game.git',
     visit: 'https://pariweshtamr.github.io/js-man-united-quiz-game/',
-    id: 5,
+    id: 7,
   },
   {
     title: 'To-do List',
@@ -85,7 +96,7 @@ export const projects = [
     tags: ['HTML', 'CSS', 'Javascript'],
     source: 'https://github.com/pariweshtamr/js-not-to-do-list',
     visit: 'https://pariweshtamr.github.io/js-todo-list/',
-    id: 6,
+    id: 8,
   },
   {
     title: 'Prank Calculator',
@@ -95,7 +106,7 @@ export const projects = [
     image: '/images/5.png',
     tags: ['React'],
     source: 'https://github.com/pariweshtamr/prank-calculator-with-reactjs',
-    id: 7,
+    id: 9,
   },
   {
     title: 'Contacts App',
@@ -105,18 +116,8 @@ export const projects = [
     image: '/images/3.png',
     tags: ['React'],
     source: 'https://github.com/pariweshtamr/contacts-app.git',
-    id: 8,
+    id: 10,
   },
-]
-
-export const TimeLineData = [
-  { year: 2019, text: 'Started my journey in IT' },
-  {
-    year: 2021,
-    text: 'Attained Post-graduate degree in Applied Information Technology',
-  },
-  { year: 2021, text: 'Enrolled in a MERN stack bootcamp course' },
-  { year: 2022, text: 'Sharing my projects in gitHub' },
 ]
 
 export const AccompData = [
