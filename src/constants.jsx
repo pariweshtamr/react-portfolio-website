@@ -6,8 +6,8 @@ export const projects = [
       'Using React, Node, Express & MongoDB, this project is a Full Stack MERN application called Soccer boot store and is an e-commerce app that allows users to purchase high-end soccer cleats from top brands all in one place.',
     image: '/images/1.jpg',
     tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://github.com/pariweshtamr/football-store-project.git',
-    visit: '',
+    source: 'https://github.com/pariweshtamr/mern-soccer-store-frontend',
+    visit: 'https://mern-soccer-store.vercel.app/',
     id: 0,
   },
   {
