@@ -1,5 +1,5 @@
-import React from 'react'
-import CV from '../../assets/Resume.pdf'
+import React from "react"
+import CV from "../../assets/Pariwesh.Resume.pdf"
 
 const HeaderButtons = () => {
   return (
