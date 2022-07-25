@@ -1,9 +1,9 @@
-import React from 'react'
-import './about.css'
-import ME from '../../assets/about.png'
-import { FaAward } from 'react-icons/fa'
-import { VscFolderLibrary } from 'react-icons/vsc'
-import TimelineSection from '../Timeline/TimelineSection'
+import React from "react"
+import "./about.css"
+import ME from "../../assets/about.png"
+import { FaAward } from "react-icons/fa"
+import { VscFolderLibrary } from "react-icons/vsc"
+import TimelineSection from "../Timeline/TimelineSection"
 
 const About = () => {
   return (
@@ -29,7 +29,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>Entry Level</small>
+              <small>Intermediate</small>
             </article>
 
             <article className="about__card">
